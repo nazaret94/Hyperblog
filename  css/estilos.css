@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Code+Pro:ital,wght@1,300&display=swap'); 
+h1{
+    color: darkmagenta;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: darkblue;
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+}
