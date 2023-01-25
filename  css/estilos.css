@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Code+Pro:ital,wght@1,300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
 h1{
     color: darkmagenta;
-    font-size: 50px;
+    font-size: 70px;
     font-family: 'Dancing Script', cursive;
 }
 body{
@@ -9,10 +11,81 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image:url(/assets/\ -2.jpg);
+    background-color: aquamarine;
 }
 
-p{
-    color: darkblue;
-    font-size: 25px;
-    font-family: 'Source Code Pro', monospace;
+.Cabecera{
+    display:flex;
+    background-color: aqua;
+    width:-webkit-fill-available;
+    height: 100px;
+    border-radius: 20px;
+    border: 4px solid blue;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.seccion1{
+    display: flex;
+    flex-direction: row;
+    width:-webkit-fill-available;
+    height: 400px;
+    background-color: cornflowerblue;
+    align-items: center;
+    border: 4px solid;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+}
+.seccion2{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    width:-webkit-fill-available;
+    height: 400px;
+    background-color: cornflowerblue;
+    align-items: center;
+    border: 4px solid;
+    border-radius: 20px;
+    margin: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Mensaje{
+      font-family: 'Shadows Into Light', cursive;
+      font-size: 60px;
+      display: flex;   
+      padding: 10px;
+      margin: 30px;
+      width:-webkit-fill-available;
+
+    }
+.seccion1 img{
+    width: 400px;
+    height: 250px;
+    margin: 30px;
+    border-radius: 20px;
+    border: 4px solid aliceblue;
+}
+@media (max-width: 800px){
+h1{
+    font-size: 40px;
+}
+.Mensaje{
+    font-size: 30px;
+}
+.seccion1{
+    flex-direction: column;
+}
+.seccion1 img{
+    width: 200px;
+    height: 150px;}
+.seccion2{
+    font-size: 13px;
+}
 }
