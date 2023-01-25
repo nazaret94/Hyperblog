@@ -40,10 +40,10 @@ body{
     padding: 10px;
 }
 .seccion2{
-    font-family: 'Indie Flower', cursive;
+    font-family:'Times New Roman', Times, serif
     font-size: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width:-webkit-fill-available;
     height: 400px;
     background-color: cornflowerblue;
